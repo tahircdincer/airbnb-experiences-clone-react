@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 1.4rem 2rem;
+  box-shadow: 0px 2.98px 7.46px 0px #0000001a;
+}
+
+.navbar__logo {
+  width: 5rem;
+}
+
+/* ' Hero ' Section */
