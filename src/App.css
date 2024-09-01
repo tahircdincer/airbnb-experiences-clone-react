@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --poppins-regular: 300;
+  --poppins-bold: 600;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
 /* Navbar */
 
 .navbar {
@@ -16,3 +23,22 @@
 }
 
 /* ' Hero ' Section */
+
+.hero--section__image {
+  width: 25rem;
+  margin-block: 2rem;
+  align-self: center;
+}
+.hero--section {
+  display: flex;
+  flex-direction: column;
+}
+.hero--section h1 {
+  font-weight: var(--poppins-bold);
+  margin-left: 2.5rem;
+}
+
+.hero--section p {
+  font-weight: var(--poppins-regular);
+  margin-left: 2.5rem;
+}
