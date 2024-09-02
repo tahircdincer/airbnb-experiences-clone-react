@@ -25,7 +25,7 @@ body {
 /* ' Hero ' Section */
 
 .hero--section__image {
-  width: 25rem;
+  width: 30rem;
   margin-block: 2rem;
   align-self: center;
 }
@@ -33,12 +33,39 @@ body {
   display: flex;
   flex-direction: column;
 }
+.hero--section__text-area {
+  text-align: left;
+  padding-left: 2.5rem;
+}
 .hero--section h1 {
   font-weight: var(--poppins-bold);
-  margin-left: 2.5rem;
 }
 
 .hero--section p {
   font-weight: var(--poppins-regular);
-  margin-left: 2.5rem;
+}
+
+/* Card Section */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2.5rem;
+}
+.card__image {
+  width: 11rem;
+}
+
+.card__rating--area {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.card__price {
+  font-weight: var(--poppins-bold);
+}
+
+.card__description {
+  margin-block: 0.5rem;
 }
