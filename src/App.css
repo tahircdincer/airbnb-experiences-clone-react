@@ -52,6 +52,11 @@ body {
   flex-direction: column;
   padding: 3rem 2.5rem;
 }
+.card__container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+}
 .card__image {
   width: 11rem;
 }
@@ -68,4 +73,8 @@ body {
 
 .card__description {
   margin-block: 0.5rem;
+}
+
+.card__rating--count--location {
+  color: #918e9b;
 }
